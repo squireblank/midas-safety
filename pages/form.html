@@ -32,32 +32,51 @@
           </div>
           <div class="form-box visitor-form-box">
             <div class="form-texts">
-              <p class="eng-text">Please Fill in the Form</p>
-              <p class="ban-text">অনুগ্রহপূর্বক ফরমটি পূরণ করুন</p>
+              <p>
+                <span class="eng-text">Please Fill in the Form</span> |
+                <span class="ban-text">অনুগ্রহ করে ফরমটি পূরণ করুন</span>
+              </p>
               <hr />
             </div>
-            <form id="visitorForm">
+            <form id="visitorForm" autocomplete="off">
               <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" />
+                <label for="name">
+                  <p>Name</p>
+                  <p class="ban-text">নাম</p></label
+                ><span>:</span>
+                <input type="text" id="name" required autocomplete="off" />
               </div>
               <div class="form-group">
-                <label for="company">Company</label>
-                <input type="text" id="company" />
+                <label for="company">
+                  <p>Company</p>
+                  <p class="ban-text">কোম্পানি</p> </label
+                ><span>:</span>
+                <input type="text" id="company" required />
               </div>
               <div class="form-group">
-                <label for="area-visit">Area To Visit</label>
-                <input type="text" id="area-visit" />
+                <label for="area-visit">
+                  <p>Area to Visit</p>
+                  <p class="ban-text">পরিদর্শনের স্থান</p> </label
+                ><span>:</span>
+                <input type="text" id="area-visit" required />
               </div>
               <div class="form-group">
-                <label for="person-visit">Person To Visit</label>
-                <input type="text" id="person-visit" />
+                <label for="person-visit"
+                  ><p>Person to Visit</p>
+                  <p class="ban-text">পরিদর্শন করা ব্যক্তি</p> </label
+                ><span>:</span>
+                <input type="text" id="person-visit" required />
               </div>
               <div class="form-group">
-                <label for="contact">Contact</label>
-                <input type="text" id="contact" />
+                <label for="contact"
+                  ><p>Mobile</p>
+                  <p class="ban-text">মোবাইল</p></label
+                ><span>:</span>
+                <input type="text" id="contact" required />
               </div>
-              <button type="submit" class="btn btn-form">Submit</button>
+              <div class="form-buttons">
+                <button class="btn btn-form">SUBMIT</button>
+              </div>
             </form>
           </div>
         </section>
