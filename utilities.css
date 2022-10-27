@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button {
+  font: inherit;
+  border: 0;
+  outline: 0;
+}
+
+input {
+  border-radius: 1rem;
+  border: 2px solid gray;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+hr {
+  border: 1px solid gray;
+  box-shadow: 0 0 2px 0 aqua;
+}
+
+h1 {
+  width: 100%;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  border-bottom: 0.5rem solid crimson;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 95vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  max-width: 100%;
+  border: 1px solid red;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.texts p {
+  margin: 1rem 0;
+  font-size: 4rem;
+  line-height: 1.3;
+}
+
+.eng-text {
+  font-weight: 500;
+}
+
+.ban-text {
+  font-family: "Noto Sans Bengali", sans-serif;
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}

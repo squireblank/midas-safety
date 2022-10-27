@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../utilities.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Midas Safety</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <h1>Midas Safety App: Visitor Form</h1>
+      </header>
+      <main class="row">
+        <section class="row">
+          <div class="texts">
+            <p class="eng-text text-center">
+              Follow Rules, Don't Take Chances. If You Don't Know, Ask.
+            </p>
+            <hr />
+            <p class="ban-text text-center">
+              নির্দেশনা মেনে চলুন, ঝুঁকি নেবেন না। কোনো কিছু না জানলে জিজ্ঞাসা
+              করুন।
+            </p>
+          </div>
+        </section>
+        <section class="row form-area">
+          <div class="form-box form-image-box">
+            <img src="../images/form.png" alt="form-instruction" />
+          </div>
+          <div class="form-box visitor-form-box">
+            <div class="form-texts">
+              <p class="eng-text">Please Fill in the Form</p>
+              <p class="ban-text">অনুগ্রহপূর্বক ফরমটি পূরণ করুন</p>
+              <hr />
+            </div>
+            <form id="visitorForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+              </div>
+              <div class="form-group">
+                <label for="company">Company</label>
+                <input type="text" id="company" />
+              </div>
+              <div class="form-group">
+                <label for="area-visit">Area To Visit</label>
+                <input type="text" id="area-visit" />
+              </div>
+              <div class="form-group">
+                <label for="person-visit">Person To Visit</label>
+                <input type="text" id="person-visit" />
+              </div>
+              <div class="form-group">
+                <label for="contact">Contact</label>
+                <input type="text" id="contact" />
+              </div>
+              <button type="submit" class="btn btn-form">Submit</button>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./form.js"></script>
+  </body>
+</html>
