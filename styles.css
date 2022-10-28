@@ -129,18 +129,22 @@
 
 .rule-img-area {
   flex: 1;
+  margin: 1rem 0;
   display: flex;
   justify-content: space-around;
 }
 
-.rule-img {
-  max-width: 30%;
-  max-height: 600px;
-  margin: 2rem 0;
+.rule-box {
   flex: 1;
+  max-width: 30%;
+  max-height: 500px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+}
+
+.rule-img {
+  object-fit: cover;
   border-radius: 1rem;
   box-shadow: 0 0 3px 1px black;
 }

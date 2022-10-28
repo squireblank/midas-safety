@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "electron": "^21.2.0"
+  },
+  "name": "midas-safety",
+  "description": "",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squireblank/midas-safety.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/squireblank/midas-safety/issues"
+  },
+  "homepage": "https://github.com/squireblank/midas-safety#readme"
+}
